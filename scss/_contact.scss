@@ -1,0 +1,37 @@
+// Styling for the contact section
+section#contact {
+  background-color: $gray-900;
+  background-image: url('../img/map-image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  .section-heading {
+    color: $white;
+  }
+  .subtext {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    color: $primary;
+  }
+ .social-button {
+      font-size:35px;
+      line-height:60px;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: white;
+      border-radius: 100%;
+      outline: none;
+      background-color: $primary;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: $white;
+        color: $primary;
+      
+  }
+}
+}
